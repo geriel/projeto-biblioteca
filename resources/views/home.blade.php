@@ -13,9 +13,9 @@
                         <div class="col-md-4">
                         </div>
                         <div class="col-md-4 text-right">
-                            <a href="{{ route('livros.index') }}" class="btn btn-outline-dark">Livros</a>
-                            <a href="{{ route('autores.index') }}" class="btn btn-outline-dark">Autores</a>
                             <a href="{{ route('editoras.index') }}" class="btn btn-outline-dark">Editoras</a>
+                            <a href="{{ route('autores.index') }}" class="btn btn-outline-dark">Autores</a>
+                            <a href="{{ route('livros.index') }}" class="btn btn-outline-dark">Livros</a>
                         </div>
                     </div>
                 </div>
@@ -31,7 +31,6 @@
                         @forelse ($livros as $livro )
                             <div class="col" style="margin-bottom: 20px">
                                 <div class="card">
-                                <img src="https://binaries.templates.cdn.office.net/support/templates/pt-br/lt22301254_quantized.png" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">{{ $livro->lancamento }} - {{ $livro->titulo }}</h5>
                                     <p class="card-text">
@@ -42,8 +41,7 @@
                                 </div>
                             </div>
                         @empty
-                        <p> Nenhum livro cadastrado! </p>
-
+                            <p> Nenhum livro cadastrado! </p>
                         @endforelse
                       </div>
                 </div>

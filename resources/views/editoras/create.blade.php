@@ -38,7 +38,7 @@
                                 </div>
                                 <div class="mb-3">
                                     <label for="telefone" class="form-label">Telefone</label>
-                                    <input type="text" class="form-control" id="telefone" name="telefone" required>
+                                    <input type="text" class="form-control" id="telefone" name="telefone" maxlength="14" required>
                                 </div>
                                 <button type="submit" class="btn btn-success">Salvar</button>
                             </form>
