@@ -20,8 +20,7 @@ npm install && npm run dev
 ```
 - Estou deixando um arquivo .SQL caso não consiga rodar o comando migrate.
 
-### Para acessar
-- Usuário
+#### Para acessar
 ```
 user: admin@admin.com
 pwd: admin1234
