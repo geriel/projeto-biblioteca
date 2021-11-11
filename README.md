@@ -4,13 +4,13 @@
 
 #### Instalação
 - Por favor baixe o projeto através do terminal e adicione as configurações do banco de dados em seu arquivo .env
-- Após adicionar as conexões do banco de dados rode para instalar o banco de dados.
+- Após adicionar as conexões do banco de dados rode o comandao abaixo para instalar as tabelas.
 ```
 php artisan migrate
 ```
-* A partir desse momento o banco de dados já estará disponível.
+A partir desse momento o banco de dados já estará disponível.
 
-- Após instalação do banco de dados é só startar o servidor usando o comando abaixo.
+- Após instalação das tabelas você só precisará startar o servidor usando o comando abaixo.
 ```
 php artisan serve
 ```
@@ -20,13 +20,11 @@ npm install && npm run dev
 ```
 - Estou deixando um arquivo .SQL caso não consiga rodar o comando migrate.
 
-##### Usuário
+### Para acessar
+- Usuário
 ```
-admin@admin.com
-```
-##### Senha
-```
-admin1234
+user: admin@admin.com
+pwd: admin1234
 ```
 
 ##### Observações
